@@ -1,0 +1,92 @@
+{
+    "files.associations": {
+        "optional": "c",
+        "random": "c",
+        "bitset": "c",
+        "chrono": "c",
+        "string_view": "c",
+        "bit": "c",
+        "*.tcc": "c",
+        "condition_variable": "c",
+        "algorithm": "c",
+        "istream": "c",
+        "limits": "c",
+        "mutex": "c",
+        "shared_mutex": "c",
+        "streambuf": "c",
+        "thread": "c",
+        "list": "cpp",
+        "initializer_list": "cpp",
+        "memory_resource": "cpp",
+        "regex": "cpp",
+        "type_traits": "cpp",
+        "*.inc": "cpp",
+        "array": "cpp",
+        "atomic": "cpp",
+        "cctype": "cpp",
+        "clocale": "cpp",
+        "cmath": "cpp",
+        "cstdarg": "cpp",
+        "cstddef": "cpp",
+        "cstdint": "cpp",
+        "cstdio": "cpp",
+        "cstdlib": "cpp",
+        "cwchar": "cpp",
+        "cwctype": "cpp",
+        "deque": "cpp",
+        "unordered_map": "cpp",
+        "vector": "cpp",
+        "exception": "cpp",
+        "functional": "cpp",
+        "iterator": "cpp",
+        "memory": "cpp",
+        "numeric": "cpp",
+        "string": "cpp",
+        "system_error": "cpp",
+        "tuple": "cpp",
+        "utility": "cpp",
+        "fstream": "cpp",
+        "iosfwd": "cpp",
+        "iostream": "cpp",
+        "new": "cpp",
+        "ostream": "cpp",
+        "sstream": "cpp",
+        "stdexcept": "cpp",
+        "typeinfo": "cpp"
+    },
+    "lldb.displayFormat": "auto",
+    "lldb.showDisassembly": "auto",
+    "lldb.dereferencePointers": true,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "googletest.failed",
+                "settings": {
+                    "foreground": "#f00"
+                }
+            },
+            {
+                "scope": "googletest.passed",
+                "settings": {
+                    "foreground": "#0f0"
+                }
+            },
+            {
+                "scope": "googletest.run",
+                "settings": {
+                    "foreground": "#0f0"
+                }
+            }
+        ]
+    },
+    "cmake.configureOnOpen": false,
+    "gcovViewer.buildDirectories": [
+        "/workspaces/c/"
+    ],
+    "debug.node.autoAttach": "on",
+    "C_Cpp.dimInactiveRegions": true,
+    "twitch.channel": "funcelot",
+    "twitch.username": "funcelot",
+    "twitch.oauth": "${env:TWITCHAUTH}",
+    "C_Cpp.errorSquiggles": "Disabled"
+}

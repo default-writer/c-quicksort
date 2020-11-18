@@ -1,0 +1,38 @@
+{
+    "env": {
+        "myDefaultIncludePath": [
+            "${workspaceFolder}",
+            "${workspaceFolder}/src",
+            "${workspaceFolder}/deps/rexo/include"
+        ],
+        "myCompilerPath": "/usr/bin/gcc"
+    },
+    "configurations": [
+        {
+            "name": "Dev Container: Ubuntu",
+            "includePath": [
+                "${workspaceFolder}/*",
+                "${workspaceFolder}/src",
+                "${workspaceFolder}/deps/rexo/include"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "clang-x64",
+            "compilerArgs": [
+                "--coverage"
+            ],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/*",
+                    "${workspaceFolder}/src",
+                    "${workspaceFolder}/deps/rexo/include"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "configurationProvider": "ms-vscode.cmake-tools"
+        }
+    ],
+    "version": 4
+}

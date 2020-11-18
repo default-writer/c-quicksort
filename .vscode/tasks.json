@@ -1,0 +1,51 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "gcc-build",
+            "type": "shell",
+            "command": "gcc --coverage -g ${workspaceFolder}/tests/main.c ${workspaceFolder}/src/list.c -I${workspaceFolder}/src -I${workspaceFolder}/deps/rexo/include -o ${workspaceFolder}/build/main",
+            "problemMatcher": [],
+            "group": "test",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "gcc-build-light",
+            "type": "shell",
+            "command": "gcc --coverage -g ${workspaceFolder}/tests/main-light.c ${workspaceFolder}/src/list-light.c -I${workspaceFolder}/src -I${workspaceFolder}/deps/rexo/include -o ${workspaceFolder}/build/main-light",
+            "problemMatcher": [],
+            "group": "test",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "gcc-build-tiny",
+            "type": "shell",
+            "command": "gcc --coverage -g ${workspaceFolder}/tests/main-tiny.c ${workspaceFolder}/src/list-tiny/code.c -I${workspaceFolder}/src -I${workspaceFolder}/deps/rexo/include -o ${workspaceFolder}/build/main-tiny",
+            "problemMatcher": [],
+            "group": "test",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "gcc-build-micro",
+            "type": "shell",
+            "command": "gcc --coverage -g ${workspaceFolder}/tests/main-micro.c ${workspaceFolder}/src/list-micro/code.c -I${workspaceFolder}/src -I${workspaceFolder}/deps/rexo/include -o ${workspaceFolder}/build/main-micro",
+            "problemMatcher": [],
+            "group": "test",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            }
+        }        
+    ]
+}
